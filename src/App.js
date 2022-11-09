@@ -7,11 +7,14 @@ import Portfolio from "./pages/portfolio/Portfolio.jsx";
 import AboutMe from "./pages/about/AboutMe.jsx";
 import Contact from "./pages/contact/Contact.jsx";
 import Project from "./pages/project/Project.jsx";
+import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Navbar />
         <Switch>
           <Route exact path="/">
             <Home />
@@ -32,6 +35,7 @@ function App() {
             <Redirect to="/" />
           </Route>
         </Switch>
+        <Footer />
       </BrowserRouter>
     </div>
   );

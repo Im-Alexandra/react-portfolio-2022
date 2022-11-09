@@ -1,0 +1,21 @@
+.navbar {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.navbar ul {
+  padding: 20px 30px;
+  max-width: 800px;
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar .logo {
+  margin-right: auto;
+}
+.navbar a {
+  color: var(--text-color);
+  font-family: moneta regular;
+  font-size: 1.3em;
+}

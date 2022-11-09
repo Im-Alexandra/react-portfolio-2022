@@ -2,5 +2,9 @@ import React from "react";
 import "./Project.css";
 
 export default function Project() {
-  return <div>Project</div>;
+  return (
+    <div>
+      <h1 className="page-title">Project details</h1>
+    </div>
+  );
 }
